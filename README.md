@@ -52,7 +52,7 @@ git rebase --continue
 git push origin ma-branche --force
 
 
-## Implementation de Git Rebase Interactive
+# Implementation de Git Rebase Interactive
 
 Le rebase interactif Git désigne le moment où le rebase Git accepte un argument -- i. Ce « i » représente « Interactif ». Sans argument, la commande s'exécute en mode standard. Dans les deux cas, supposons que vous avez créé une branche de fonctionnalité distincte.
 

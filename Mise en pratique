@@ -1,0 +1,33 @@
+* Commandes pour illustrer le principe de Git Rebase
+
+** Transplante bug1 sur l'actuelle branche master. Si on est déjà en train de bosser sur bug1 on peut se contenter de taper git rebase master
+
+- git rebase master bug1
+
+** Switche sur master
+
+- git checkout master
+
+** Fusionne bug1 dans master
+
+- git merge bug1
+
+** Supprime la branche bug1 devenue inutile
+
+- git branch -d bug1
+
+** Transplante bug2 sur la branche master
+
+- git rebase master bug2
+
+** Switche sur master
+
+- git checkout master
+
+** Fusionne bug2 dans master
+
+- git merge bug2
+
+** Supprime bug2 devenue inutile
+
+- git branch -d bug2

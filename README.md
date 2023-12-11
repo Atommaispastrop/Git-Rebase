@@ -16,6 +16,4 @@ Le rebasage (rebase) est une opération Git qui permet de fusionner une branche 
 
 ## Comment Utiliser Git Rebase
 
-### 1. Se Positionner sur la Branche à Rebaser
 
-```bash

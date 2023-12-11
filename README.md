@@ -1,5 +1,3 @@
-# Git-Rebase
-
 # Git Rebase - Guide Rapide
 
 Le rebasage consiste à déplacer vers un nouveau commit de base ou à combiner une séquence de commits. Le rebasage est plus utile et facilement visible dans le contexte d'un workflow de branche de fonctionnalité. Vous pouvez visualiser le processus général comme suit :
@@ -17,11 +15,8 @@ Au niveau du contenu, le rebase consiste à changer la base de votre branche d'u
 
 3. **Facilite la Résolution des Conflits :** En résolvant les conflits au fur et à mesure des commits, il est plus facile de gérer les conflits.
 
-
-Bien sûr, voici comment vous pourriez organiser votre README.md pour présenter Git rebase de manière concise :
-
 markdown
-Copy code
+
 # Git Rebase - Guide Rapide
 
 ## Introduction

@@ -31,7 +31,7 @@ Le rebasage (rebase) est une opération Git qui permet de fusionner une branche 
 
 3. **Facilite la Résolution des Conflits :** En résolvant les conflits au fur et à mesure des commits, il est plus facile de gérer les conflits.
 
-Comment Utiliser Git Rebase
+## Comment Utiliser Git Rebase
 
 1. Se Positionner sur la Branche à Rebaser
 

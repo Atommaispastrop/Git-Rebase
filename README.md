@@ -52,3 +52,13 @@ git rebase --continue
 git push origin ma-branche --force
 
 
+## Implementation de Git Rebase Interactive
+
+Le rebase interactif Git désigne le moment où le rebase Git accepte un argument -- i. Ce « i » représente « Interactif ». Sans argument, la commande s'exécute en mode standard. Dans les deux cas, supposons que vous avez créé une branche de fonctionnalité distincte.
+
+Exécuter git rebase avec l'option -i démarre une session de rebasage interactive. Au lieu de déplacer aveuglément tous les commits vers la nouvelle base, le rebasage interactif vous permet de modifier des commits un à un au cours du processus. Vous pouvez ainsi nettoyer l'historique en supprimant, en séparant et en modifiant une série existante de commits.
+
+git rebase --interactive <base>
+
+Au final un rebasage interactif nous donne le contrôle total sur l'apparence de votre historique de projet. Les développeurs ont ainsi une grande liberté pour enregistrer un historique « désordonné » en se concentrant sur la programmation, avant d'y revenir et de le nettoyer ultérieurement.
+
